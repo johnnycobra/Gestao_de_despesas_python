@@ -10,7 +10,7 @@ arquivoDeGastos = open("registro-de-gastos.txt", "a")
 
 # função para armazenar os registros de gastos --- precisa melhorar
 def salvarGasto(mes, descrição, valor):
-  arquivoDeGastos.write('%s\t%s\t%s\n' % ("mes: "+mes, "descricao: "+descrição, valor))
+  arquivoDeGastos.write('%s\t%s\t%s\n' % ("mês: "+mes, "descrição: "+descrição, valor))
 
 while(True):
   
@@ -25,6 +25,8 @@ while(True):
 
 # solicitar informações ao usuario
     if(opcao==1):
+        print("algumas desepesas são: ")
+        print("Aluguel - Condominio - Energia - Internet - Faculdade - Financiamento - Cartão de Crédito")
         mes = input("Digite o mes que você gastou o dinheiro:")
         descrição = input("Descrição do gasto:")
         valor = float(input("Qual foi o valor gasto?"))
