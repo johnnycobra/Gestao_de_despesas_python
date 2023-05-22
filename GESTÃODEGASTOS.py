@@ -21,13 +21,13 @@ while(True):
     print("2 - Exibir")
     print("3 - Sair")
     print("------------------------------")
-    opcao=int(input("Digite a opção desejada: "))
+    opcao=int(input("== Digite a opção desejada: =="))
 
 # solicitar informações ao usuario
     if(opcao==1):
-        print("algumas desepesas são: ")
-        print("Aluguel - Condominio - Energia - Internet - Faculdade - Financiamento - Cartão de Crédito")
-        mes = input("Digite o mes que você gastou o dinheiro:")
+        print("== algumas despesas são: ==")
+        print("== Aluguel - Condominio - Energia - Internet - Faculdade - Financiamento - Cartão de Crédito ==")
+        mes = input("Digite o mês que você gastou o dinheiro:")
         descrição = input("Descrição do gasto:")
         valor = float(input("Qual foi o valor gasto?"))
 
