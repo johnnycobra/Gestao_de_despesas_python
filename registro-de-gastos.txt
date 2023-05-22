@@ -1,0 +1,5 @@
+10	comida	comida	50.0
+maio	aa	10.0
+maio	comida	100.0
+mesmaio	descricaocomidaaaa	100.0
+mes: JUNHO	descricao: carro	500.0
